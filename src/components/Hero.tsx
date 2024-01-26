@@ -24,8 +24,8 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="w-1/3 px-16 py-16 bg-primary items-center justify-center">
-        <img src={profile_image} alt="profile picture" />
+      <div className="w-1/3 px-16 py-16 bg-primary items-center justify-center rounded-3xl">
+        <img src={profile_image} alt="profile picture" className="rounded-3xl" />
       </div>
     </section>
   );
