@@ -2,9 +2,9 @@ import profile_image from "../assets/_MG_0979_reverse_web.jpg";
 
 export default function Hero() {
   return (
-    <section id="Hero" className="flex flex-row gap-x-8">
-      <div className="w-2/3 flex flex-col items-start">
-        <span className="uppercase nunito text-[20px] font-bold text-primary mb-8">
+    <section id="Hero" className="flex flex-row bg-heroBg">
+      <div className="w-7/12 flex flex-col items-start px-8">
+        <span className="uppercase nunito text-[20px] font-bold text-primary mt-8 mb-8">
           FULL STACK DEVELOPER
         </span>
         <h1 className="playfair text-6xl font-bold leading-[120%] text-left mb-8">
@@ -24,8 +24,8 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="w-1/3 px-16 py-16 bg-primary items-center justify-center rounded-3xl">
-        <img src={profile_image} alt="profile picture" className="rounded-3xl" />
+      <div className="w-5/12 py-16 bg-primary flex items-center align-middle justify-center">
+        <img src={profile_image} alt="profile picture"  />
       </div>
     </section>
   );
