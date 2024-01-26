@@ -5,7 +5,6 @@ export default {
     colors: {
       primary: "#365584",
       white: "#ffffff",
-      heroBg: "#dddcda"
     },
   },
   plugins: [],

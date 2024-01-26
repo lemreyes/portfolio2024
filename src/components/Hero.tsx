@@ -2,15 +2,15 @@ import profile_image from "../assets/_MG_0979_reverse_web.jpg";
 
 export default function Hero() {
   return (
-    <section id="Hero" className="flex flex-row gap-x-16">
+    <section id="Hero" className="flex flex-row gap-x-8">
       <div className="w-2/3 flex flex-col items-start">
-        <span className="uppercase nunito text-[20px] font-bold text-primary">
+        <span className="uppercase nunito text-[20px] font-bold text-primary mb-8">
           FULL STACK DEVELOPER
         </span>
-        <h1 className="playfair text-6xl font-bold leading-[120%] text-left">
+        <h1 className="playfair text-6xl font-bold leading-[120%] text-left mb-8">
           Hello, I am Lemuel Leogene Reyes
         </h1>
-        <p className="nunito text-2xl leading-[150%] text-left text-gray-500">
+        <p className="nunito text-2xl leading-[150%] text-left text-gray-500 mb-8">
           Seasoned Software Engineer and Project Manager with 17 years of
           expertise, ready to elevate your projects as a Full Stack Web
           Developer.
