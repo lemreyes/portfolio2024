@@ -5,6 +5,7 @@ export default {
     colors: {
       primary: "#365584",
       accent: "#2168D2",
+      regularText: "#828282",
       white: "#ffffff",
       heroBg: "#fffffe"
     },
