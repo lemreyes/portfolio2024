@@ -13,7 +13,7 @@ import cpp_logo from "../assets/cpp_logo.svg";
 
 export default function Skills() {
   return (
-    <section id="Skills" className="mt-8 flex flex-col items-center">
+    <section id="Skills" className="mt-16 flex flex-col items-center">
       <div className="flex flex-col items-center">
         <h2 className="playfair text-5xl font-bold leading-[72px]">Skills</h2>
         <div className="h-1 bg-primary -mt-2 w-24">&nbsp;</div>
@@ -102,14 +102,14 @@ export default function Skills() {
           <span className="roboto">Confluence</span>
         </li>
         <li className="flex flex-col items-center">
-          <div className="w-[100px] h-[100px] flex items-center">
-            <img src={c_logo} alt="C logo" width={100} height={100} />
+          <div className="w-[80px] h-[100px] flex items-center">
+            <img src={c_logo} alt="C logo" width={80} height={100} />
           </div>
           <span className="roboto">C</span>
         </li>
         <li className="flex flex-col items-center">
           <div className="h-[100px] flex items-center">
-            <img src={cpp_logo} alt="C++ logo" height={100} width={100} />
+            <img src={cpp_logo} alt="C++ logo" height={100} width={80} />
           </div>
           <span className="roboto">C++</span>
         </li>
