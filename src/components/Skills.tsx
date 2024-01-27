@@ -16,7 +16,7 @@ export default function Skills() {
     <section id="Skills" className="mt-16 flex flex-col items-center">
       <div className="flex flex-col items-center">
         <h2 className="playfair text-5xl font-bold leading-[72px]">Skills</h2>
-        <div className="h-1 bg-primary -mt-2 w-24">&nbsp;</div>
+        <div className="h-1 bg-accent -mt-2 w-24">&nbsp;</div>
       </div>
 
       <ul className="mt-8 grid grid-cols-4 grid-rows-3 w-1/2 gap-4">

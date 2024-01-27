@@ -4,6 +4,7 @@ export default {
   theme: {
     colors: {
       primary: "#365584",
+      accent: "#2168D2",
       white: "#ffffff",
       heroBg: "#fffffe"
     },
