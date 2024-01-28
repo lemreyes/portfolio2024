@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className="playfair text-6xl font-bold leading-[120%] text-left mb-8">
           Hello, I am Lemuel Leogene Reyes
         </h1>
-        <p className="nunito text-2xl leading-[150%] text-left text-gray-500 mb-8">
+        <p className="nunito text-2xl leading-[150%] text-left text-regularText mb-8">
           Seasoned Software Engineer and Project Manager with 17 years of
           expertise, ready to elevate your projects as a Full Stack Web
           Developer.
