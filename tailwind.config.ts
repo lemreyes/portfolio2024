@@ -7,7 +7,12 @@ export default {
       accent: "#2168D2",
       regularText: "#828282",
       white: "#ffffff",
-      heroBg: "#fffffe"
+      heroBg: "#fffffe",
+    },
+    screens: {
+      tablet: "430px",
+      desktop: "1024px",
+      wide: "1366px",
     },
   },
   plugins: [],
