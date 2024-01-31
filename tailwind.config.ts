@@ -8,6 +8,7 @@ export default {
       regularText: "#828282",
       white: "#ffffff",
       heroBg: "#fffffe",
+      menuBg: "#e5e5e5",
     },
     screens: {
       tablet: "430px",
