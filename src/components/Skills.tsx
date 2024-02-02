@@ -19,7 +19,7 @@ export default function Skills() {
         <div className="h-1 bg-accent -mt-2 w-24">&nbsp;</div>
       </div>
 
-      <ul className="mt-8 grid grid-cols-4 grid-rows-3 w-1/2 gap-4">
+      <ul className="mt-8 grid grid-cols-3 tablet:grid-cols-4 tablet:grid-rows-3 w-7/8 tablet:w-1/2 gap-4">
         <li className="flex flex-col items-center gap-1">
           <div className="w-[100px] h-[100px] flex items-center">
             <img src={js_logo} alt="javascript logo" width={100} height={100} />
