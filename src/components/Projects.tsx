@@ -8,9 +8,9 @@ export default function Projects() {
         <h2 className="playfair text-5xl font-bold leading-[72px]">Projects</h2>
         <div className="h-1 bg-accent w-36">&nbsp;</div>
       </div>
-      <article className="mt-8 flex flex-col tablet:flex-row bg-white rounded-0 tablet:rounded-xl mb-8 tablet:mb-0">
-        <div className="flex flex-col items-start justify-center w-full tablet:w-1/2 px-8 mb-8 tablet:mb-0">
-          <h2 className="playfair text-4xl mt-8 tablet:mt-0 mb-8">ListEasy</h2>
+      <article className="mt-8 flex flex-col tablet:flex-row bg-white rounded-0 desktop:rounded-xl mb-8 desktop:mb-0">
+        <div className="flex flex-col items-start justify-center w-full desktop:w-1/2 px-8 mb-8 desktop:mb-0">
+          <h2 className="playfair text-4xl mt-8 desktop:mt-0 mb-8">ListEasy</h2>
           <p className="nunito text-lg leading-[150%] text-regularText text-left mb-4">
             Meet your new go-to shopping companion – a masterlist-based app that
             ensures you never forget an item. Easily add items from the master
@@ -31,23 +31,23 @@ export default function Projects() {
             </button>
           </div>
         </div>
-        <div className="w-full tablet:w-1/2 h-auto">
+        <div className="w-full desktop:w-1/2 h-auto">
           <img
             src={list_easy_screencap}
             alt="List Easy app screenshot"
-            className="w-full h-auto rounded-0 tablet:rounded-r-xl"
+            className="w-full h-auto rounded-0 desktop:rounded-r-xl"
           />
         </div>
       </article>
-      <article className="mt-8 flex flex-col tablet:flex-row bg-white rounded-0 tablet:rounded-xl">
-        <div className="w-full tablet:w-1/2 order-last tablet:order-first">
+      <article className="mt-8 flex flex-col desktop:flex-row bg-white rounded-0 desktop:rounded-xl">
+        <div className="w-full desktop:w-1/2 order-last desktop:order-first">
           <img
             src={audiophile_screencap}
             alt="Audiophile screenshot"
-            className="w-full h-auto rounded-0 tablet:rounded-l-xl"
+            className="w-full h-auto rounded-0 desktop:rounded-l-xl"
           />
         </div>
-        <div className="flex flex-col items-start justify-center w-full tablet:w-1/2 px-8 order-first tablet:order-last mt-8 tablet:mt-0 mb-8 tablet:mb-0">
+        <div className="flex flex-col items-start justify-center w-full desktop:w-1/2 px-8 order-first desktop:order-last mt-8 desktop:mt-0 mb-8 desktop:mb-0">
           <h2 className="playfair text-4xl mb-8">
             Audiophile E-Commerce Website
           </h2>
