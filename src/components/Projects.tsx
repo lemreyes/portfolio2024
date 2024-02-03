@@ -8,7 +8,7 @@ export default function Projects() {
         <h2 className="playfair text-5xl font-bold leading-[72px]">Projects</h2>
         <div className="h-1 bg-accent w-36">&nbsp;</div>
       </div>
-      <article className="mt-8 flex flex-col tablet:flex-row bg-white rounded-0 desktop:rounded-xl mb-8 desktop:mb-0">
+      <article className="mt-8 flex flex-col desktop:flex-row bg-white rounded-0 desktop:rounded-xl mb-8 desktop:mb-0">
         <div className="flex flex-col items-start justify-center w-full desktop:w-1/2 px-8 mb-8 desktop:mb-0">
           <h2 className="playfair text-4xl mt-8 desktop:mt-0 mb-8">ListEasy</h2>
           <p className="nunito text-lg leading-[150%] text-regularText text-left mb-4">
