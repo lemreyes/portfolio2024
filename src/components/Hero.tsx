@@ -1,9 +1,10 @@
 import profile_image from "../assets/_MG_0979_reverse_web.jpg";
+import profile_image_square from "../assets/_MG_0979_reverse_square.jpg";
 
 export default function Hero() {
   return (
     <section id="Hero" className="flex flex-col tablet:flex-row bg-heroBg">
-      <div className="w-full tablet:w-7/12 flex flex-col items-start px-8 mb-8 tablet:mb-0">
+      <div className="w-full tablet:w-7/12 flex flex-col items-start px-8 mb-8 tablet:mb-0 order-last desktop:order-first">
         <span className="uppercase nunito text-[20px] font-bold text-primary mt-8 mb-8">
           FULL STACK DEVELOPER
         </span>
@@ -24,8 +25,15 @@ export default function Hero() {
           </button>
         </div>
       </div>
-      <div className="w-full tablet:w-5/12 py-16 bg-primary flex items-center align-middle justify-center">
-        <img src={profile_image} alt="profile picture"  />
+      <div className="w-full tablet:w-5/12 p-8 desktop:py-16 bg-primary flex items-center align-middle justify-center">
+        <picture>
+          <source srcSet={profile_image} media="(min-width: 1024px)" />
+          <img
+            src={profile_image_square}
+            alt="profile picture"
+            className="rounded-full desktop:rounded-none border-3 border-regularText "
+          />
+        </picture>
       </div>
     </section>
   );
