@@ -1,6 +1,5 @@
 import list_easy_screencap from "../assets/list_easy_screencap.png";
 import audiophile_screencap from "../assets/audiophile_screencap.png";
-import { MouseEventHandler } from "react";
 
 export default function Projects() {
   return (
