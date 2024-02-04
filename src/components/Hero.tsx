@@ -2,20 +2,6 @@ import profile_image from "../assets/_MG_0979_reverse_web.jpg";
 import profile_image_square from "../assets/_MG_0979_reverse_square.jpg";
 
 export default function Hero() {
-  const hdlProjectButtonClick = () => {
-    const targetSection = document.getElementById("Projects");
-    if (targetSection) {
-      targetSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const hdlLinkedInButtonClick = () => {
-    window.open(
-      "https://www.linkedin.com/in/lemuel-leogene-r-9838b936/",
-      "_blank"
-    );
-  };
-
   return (
     <section id="Hero" className="flex flex-col desktop:flex-row bg-heroBg">
       <div className="w-full desktop:w-7/12 flex flex-col items-start px-8 mb-8 desktop:mb-0 order-last tablet:order-first">
@@ -30,21 +16,26 @@ export default function Hero() {
           expertise, ready to elevate your projects as a Full Stack Web
           Developer.
         </p>
-        <div>
-          <button
-            onClick={hdlProjectButtonClick}
-            className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary
+        <div className="flex flex-row">
+          <a href="#Projects">
+            <div
+              className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary
                         hover:bg-white hover:text-primary"
+            >
+              Projects
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lemuel-leogene-r-9838b936/"
+            target="_blank"
           >
-            Projects
-          </button>
-          <button
-            onClick={hdlLinkedInButtonClick}
-            className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black
+            <div
+              className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black
                         hover:bg-black hover:text-white"
-          >
-            LinkedIn
-          </button>
+            >
+              LinkedIn
+            </div>
+          </a>
         </div>
       </div>
       <div className="w-full desktop:w-5/12 p-8 desktop:py-16 bg-primary flex items-center align-middle justify-center">
