@@ -7,6 +7,7 @@ export default {
       accent: "#2168D2",
       regularText: "#828282",
       white: "#ffffff",
+      black: "#000000",
       heroBg: "#fffffe",
       menuBg: "#e5e5e5",
     },

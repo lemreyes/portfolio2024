@@ -2,6 +2,20 @@ import profile_image from "../assets/_MG_0979_reverse_web.jpg";
 import profile_image_square from "../assets/_MG_0979_reverse_square.jpg";
 
 export default function Hero() {
+  const hdlProjectButtonClick = () => {
+    const targetSection = document.getElementById("Projects");
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const hdlLinkedInButtonClick = () => {
+    window.open(
+      "https://www.linkedin.com/in/lemuel-leogene-r-9838b936/",
+      "_blank"
+    );
+  };
+
   return (
     <section id="Hero" className="flex flex-col desktop:flex-row bg-heroBg">
       <div className="w-full desktop:w-7/12 flex flex-col items-start px-8 mb-8 desktop:mb-0 order-last tablet:order-first">
@@ -17,10 +31,18 @@ export default function Hero() {
           Developer.
         </p>
         <div>
-          <button className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary">
+          <button
+            onClick={hdlProjectButtonClick}
+            className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary
+                        hover:bg-white hover:text-primary"
+          >
             Projects
           </button>
-          <button className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black">
+          <button
+            onClick={hdlLinkedInButtonClick}
+            className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black
+                        hover:bg-black hover:text-white"
+          >
             LinkedIn
           </button>
         </div>
