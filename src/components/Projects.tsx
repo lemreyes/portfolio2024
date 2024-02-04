@@ -1,5 +1,6 @@
 import list_easy_screencap from "../assets/list_easy_screencap.png";
 import audiophile_screencap from "../assets/audiophile_screencap.png";
+import { MouseEventHandler } from "react";
 
 export default function Projects() {
   return (
@@ -22,13 +23,24 @@ export default function Projects() {
             <span className="font-bold">Tech stack:</span> Typescript, NextJS,
             Tailwind, Prisma, NextAuth, Zustand
           </p>
-          <div>
-            <button className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary">
-              See the code
-            </button>
-            <button className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black">
-              Go to site
-            </button>
+          <div className="flex flex-row">
+            <a href="https://github.com/lemreyes/shopping_list" target="_blank">
+              <div
+                className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary
+                              hover:bg-white hover:text-primary"
+              >
+                See the code
+              </div>
+            </a>
+            <a href="https://shopping-list83.vercel.app/" target="_blank">
+              <div
+                id="list-easy-site"
+                className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black
+                                hover:bg-black hover:text-white"
+              >
+                Go to site
+              </div>
+            </a>
           </div>
         </div>
         <div className="w-full desktop:w-1/2 h-auto">
@@ -62,13 +74,25 @@ export default function Projects() {
             <span className="font-bold">Tech stack:</span> Typescript, NextJS,
             Tailwind, Prisma, NextAuth, Zustand
           </p>
-          <div>
-            <button className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary">
-              See the code
-            </button>
-            <button className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black">
-              Go to site
-            </button>
+          <div className="flex flex-row">
+            <a href="https://github.com/lemreyes/audiophile" target="_blank">
+              <div
+                id="audiophile-code"
+                className="px-4 py-1 roboto text-lg text-white font-medium leading-[150%] mr-4 bg-primary rounded-xl border-2 border-primary
+                                hover:bg-white hover:text-primary"
+              >
+                See the code
+              </div>
+            </a>
+            <a href="https://audiophile-omss.onrender.com/" target="_blank">
+              <button
+                id="audiophile-site"
+                className="px-4 py-1 roboto text-lg font-medium leading-[150%] border-2 rounded-xl border-black
+                                hover:bg-black hover:text-white"
+              >
+                Go to site
+              </button>
+            </a>
           </div>
         </div>
       </article>
