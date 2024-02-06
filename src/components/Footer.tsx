@@ -19,20 +19,27 @@ export default function Footer() {
   return (
     <footer className="mt-24 tablet:mt-32 mb-16 flex flex-col items-center">
       <div className="flex flex-row gap-4 items-center justify-center mb-8">
-        <img
-          src={isHoverGithubIcon ? github_icon_hover : github_icon}
-          width={50}
-          alt="github icon"
-          onMouseEnter={toggleGithubIcon}
-          onMouseLeave={toggleGithubIcon}
-        />
-        <img
-          src={isHoverLinkedinIcon ? linkedin_icon_hover : linkedin_icon}
-          width={50}
-          alt="linkedin icon"
-          onMouseEnter={toggleLinkedinIcon}
-          onMouseLeave={toggleLinkedinIcon}
-        />
+        <a href="https://github.com/lemreyes" target="_blank">
+          <img
+            src={isHoverGithubIcon ? github_icon_hover : github_icon}
+            width={50}
+            alt="github icon"
+            onMouseEnter={toggleGithubIcon}
+            onMouseLeave={toggleGithubIcon}
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/lemuel-leogene-r-9838b936/"
+          target="_blank"
+        >
+          <img
+            src={isHoverLinkedinIcon ? linkedin_icon_hover : linkedin_icon}
+            width={50}
+            alt="linkedin icon"
+            onMouseEnter={toggleLinkedinIcon}
+            onMouseLeave={toggleLinkedinIcon}
+          />
+        </a>
       </div>
       <span className="nunito text-[16px] text-regularText text-center">
         Lemuel Leogene Reyes 2024
