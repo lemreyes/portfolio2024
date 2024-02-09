@@ -1,5 +1,5 @@
-import profile_image from "../assets/_MG_0979_reverse_web.jpg";
-import profile_image_square from "../assets/_MG_0979_reverse_square.jpg";
+import profile_image from "../assets/IMG_0979_reverse_web.jpg";
+import profile_image_square from "../assets/IMG_0979_reverse_square.jpg";
 
 export default function Hero() {
   return (
