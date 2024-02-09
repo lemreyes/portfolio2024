@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <nav>
-      <button className="tablet:hidden">
+      <button className="tablet:hidden py-4">
         <img src={hamburger_icon} alt="hamburger icon" onClick={hdlShowMenu} />
       </button>
       {isShowMenu && <Menu />}
